@@ -1,0 +1,100 @@
+Treating unknown remoting type "file" as "any"
+Treating unknown remoting type "file" as "any"
+Treating unknown remoting type "file" as "any"
+Treating unknown remoting type "file" as "any"
+Treating unknown remoting type "file" as "any"
+Treating unknown remoting type "file" as "any"
+Unhandled error for request POST /api/AddProject?: Error: Property names containing dot(s) are not supported. Model: AddProject, dynamic property: {
+  "$class": "org.acme.revnet.AddProject",
+  "projectId": "021",
+  "customer": "001",
+  "owner": "001",
+  "recMethod": "A",
+  "recPercent": "0",
+  "recThAmt": "1200"
+}
+    at AddProject.ModelBaseClass._initProperties (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/model.js:249:17)
+    at AddProject.ModelBaseClass (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/model.js:60:8)
+    at AddProject.Model (eval at createModelClassCtor (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/model-builder.js:671:21), <anonymous>:12:24)
+    at AddProject.PersistedModel (eval at createModelClassCtor (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/model-builder.js:671:21), <anonymous>:12:24)
+    at new AddProject (eval at createModelClassCtor (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/model-builder.js:671:21), <anonymous>:12:24)
+    at Function.DataAccessObject.create (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/dao.js:359:13)
+    at SharedMethod.invoke (/data/npm/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/shared-method.js:270:25)
+    at HttpContext.invoke (/data/npm/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/http-context.js:297:12)
+    at phaseInvoke (/data/npm/lib/node_modules/composer-rest-server/node_modules/strong-remoting/lib/remote-objects.js:676:9)
+    at runHandler (/data/npm/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/loopback-phase/lib/phase.js:135:5)
+    at iterate (/data/npm/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/loopback-phase/node_modules/async/lib/async.js:146:13)
+    at Object.async.eachSeries (/data/npm/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/loopback-phase/node_modules/async/lib/async.js:162:9)
+    at runHandlers (/data/npm/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/loopback-phase/lib/phase.js:144:13)
+    at iterate (/data/npm/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/loopback-phase/node_modules/async/lib/async.js:146:13)
+    at /data/npm/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/loopback-phase/node_modules/async/lib/async.js:157:25
+    at /data/npm/lib/node_modules/composer-rest-server/node_modules/strong-remoting/node_modules/loopback-phase/node_modules/async/lib/async.js:154:25
+Unhandled error for request POST /api/AddProject: ValidationError: The `AddProject` instance is not valid. Details: `projectId` can't be blank (value: undefined); `customer` can't be blank (value: undefined); `owner` can't be blank (value: undefined); `recMethod` can't be blank (value: undefined); `recPercent` can't be blank (value: undefined); `recThAmt` can't be blank (value: undefined).
+    at /data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/dao.js:398:12
+    at AddProject.<anonymous> (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/validations.js:578:11)
+    at AddProject.next (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/hooks.js:93:12)
+    at AddProject.<anonymous> (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/validations.js:575:23)
+    at AddProject.trigger (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at AddProject.Validatable.isValid (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/validations.js:541:8)
+    at /data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/dao.js:394:9
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at Function.ObserverMixin._notifyBaseObservers (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:178:5)
+    at Function.ObserverMixin.notifyObserversOf (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:153:8)
+    at Function.ObserverMixin._notifyBaseObservers (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:176:15)
+    at Function.ObserverMixin.notifyObserversOf (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:153:8)
+    at Function.ObserverMixin._notifyBaseObservers (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:176:15)
+Unhandled error for request POST /api/AddProject: ValidationError: The `AddProject` instance is not valid. Details: `projectId` can't be blank (value: undefined); `customer` can't be blank (value: undefined); `owner` can't be blank (value: undefined); `recMethod` can't be blank (value: undefined); `recPercent` can't be blank (value: undefined); `recThAmt` can't be blank (value: undefined).
+    at /data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/dao.js:398:12
+    at AddProject.<anonymous> (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/validations.js:578:11)
+    at AddProject.next (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/hooks.js:93:12)
+    at AddProject.<anonymous> (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/validations.js:575:23)
+    at AddProject.trigger (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at AddProject.Validatable.isValid (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/validations.js:541:8)
+    at /data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/dao.js:394:9
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at Function.ObserverMixin._notifyBaseObservers (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:178:5)
+    at Function.ObserverMixin.notifyObserversOf (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:153:8)
+    at Function.ObserverMixin._notifyBaseObservers (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:176:15)
+    at Function.ObserverMixin.notifyObserversOf (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:153:8)
+    at Function.ObserverMixin._notifyBaseObservers (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:176:15)
+Unhandled error for request POST /api/AddProject?: ValidationError: The `AddProject` instance is not valid. Details: `projectId` can't be blank (value: undefined); `customer` can't be blank (value: undefined); `owner` can't be blank (value: undefined); `recMethod` can't be blank (value: undefined); `recPercent` can't be blank (value: undefined); `recThAmt` can't be blank (value: undefined).
+    at /data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/dao.js:398:12
+    at AddProject.<anonymous> (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/validations.js:578:11)
+    at AddProject.next (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/hooks.js:93:12)
+    at AddProject.<anonymous> (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/validations.js:575:23)
+    at AddProject.trigger (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at AddProject.Validatable.isValid (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/validations.js:541:8)
+    at /data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/dao.js:394:9
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at doNotify (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:155:49)
+    at Function.ObserverMixin._notifyBaseObservers (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:178:5)
+    at Function.ObserverMixin.notifyObserversOf (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:153:8)
+    at Function.ObserverMixin._notifyBaseObservers (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:176:15)
+    at Function.ObserverMixin.notifyObserversOf (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:153:8)
+    at Function.ObserverMixin._notifyBaseObservers (/data/npm/lib/node_modules/composer-rest-server/node_modules/loopback-datasource-juggler/lib/observer.js:176:15)
+Unhandled error for request POST /api/AddProject?: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID '022' in collection with ID 'Asset:org.acme.revnet.Project' as the object already exists
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID '022' in collection with ID 'Asset:org.acme.revnet.Project' as the object already exists
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID '022' in collection with ID 'Asset:org.acme.revnet.Project' as the object already exists
+Response from attempted peer comms was an error: Error: 14 UNAVAILABLE: Connect Failed
+Response from attempted peer comms was an error: Error: 14 UNAVAILABLE: Connect Failed
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID '022' in collection with ID 'Asset:org.acme.revnet.Project' as the object already exists
+    at _initializeChannel.then.then.then.then.catch (/data/npm/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:965:34)
+    at <anonymous>
+Unhandled error for request POST /api/AddProject?: Error: Error trying invoke business network. Error: No valid responses from any peers.
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID '022' in collection with ID 'Asset:org.acme.revnet.Project' as the object already exists
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID '022' in collection with ID 'Asset:org.acme.revnet.Project' as the object already exists
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID '022' in collection with ID 'Asset:org.acme.revnet.Project' as the object already exists
+Response from attempted peer comms was an error: Error: 14 UNAVAILABLE: Connect Failed
+Response from attempted peer comms was an error: Error: 14 UNAVAILABLE: Connect Failed
+Response from attempted peer comms was an error: Error: 2 UNKNOWN: error executing chaincode: transaction returned with failure: Error: Failed to add object with ID '022' in collection with ID 'Asset:org.acme.revnet.Project' as the object already exists
+    at _initializeChannel.then.then.then.then.catch (/data/npm/lib/node_modules/composer-rest-server/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:965:34)
+    at <anonymous>
